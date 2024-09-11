@@ -12,7 +12,7 @@ class Soldat:
     def kitdesoins(self):
         self.point_de_vie=200
     
-    def deplacements(touche_clavier):
+    def deplacements(self,touche_clavier):
         if (deplacements.direction == "haut"):
             self.y = y + 10
         elif (deplacements.direction == "bas"):
