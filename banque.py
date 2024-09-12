@@ -10,12 +10,15 @@ class Compte:
     
     def retrait(self, retrait):
         if self.solde - retrait <= 0:
-            print("Vous n'avez pas assez d'argent, allez au Big Time")
+            print("Vous n'avez pas assez d'argent")
         else:
             self.solde = self.solde - retrait
     
     def afficher(self):
-        print("Vous disposez de " + str(self.solde) + " € sur le compte de Mr. " + self.nom)
+        if self.nom == "Elbarto":
+            print("Bharat tu es un clodo.")
+        else:    
+            print("Vous disposez de " + str(self.solde) + " € sur le compte de Mr. " + self.nom)
 
 m1=Compte()
 m2=m1.retrait(120)
