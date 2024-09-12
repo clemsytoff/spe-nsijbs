@@ -43,6 +43,7 @@ class Point:
         self.resultatxy = Pow(self.resultatx, 2) + Pow(self.resultaty,2)
         self.resultatracine = sqrt(self.resultatxy) + 10
 
+#on a fait Pythagore car il y a forcément un angle droit
 
         print("La distance entre le joueur et l'objectif est de " + str(self.resultatracine) + " pixels.")
         print("La distance entre le joueur et l'objectif est de " + str(self.resultx + 100) + " X et " + str(self.resulty + 100) + " Y.")
