@@ -17,3 +17,4 @@ p1=Point()
 p2 = Point(45,78)
 d = p1.distance(p2)
 print(d)
+#Elbarto le goat
