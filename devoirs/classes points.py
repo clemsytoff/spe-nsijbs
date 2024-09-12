@@ -38,6 +38,9 @@ class Point:
         
         #resultat
         self.resultatxy = self.resulty + self.resultx + 100 #on ajoute le 0 vu qu'on bouge en 10 par 10
+        self.resultatxy = (self.resultatx)^2 + (self.resultaty)^2
+
+
         print("La distance entre le joueur et l'objectif est de " + str(self.resultatxy) + " pixels.")
         print("La distance entre le joueur et l'objectif est de " + str(self.resultx + 100) + " X et " + str(self.resulty + 100) + " Y.")
 
