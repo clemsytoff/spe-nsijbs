@@ -10,7 +10,7 @@ class Compte:
     
     def retrait(self, retrait):
         if self.solde - retrait <= 0:
-            print("Vous n'avez pas assez d'argent")
+            print("Vous n'avez pas assez d'argent, allez au Big Time")
         else:
             self.solde = self.solde - retrait
     
