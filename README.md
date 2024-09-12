@@ -10,3 +10,6 @@ Exercice sur les classes. Lien : https://github.com/clemsytoff/spe-nsijbs/blob/m
 
 **12/09/2024** : Exercice sur les classes où il faut créer un compte en banque avec un nom et un solde avec dépôt, retrait et affichage du solde. (Si pas assez d'argent impossible de retirer).
 Lien : https://github.com/clemsytoff/spe-nsijbs/blob/main/banque.py
+
+Exercice sur les classes où il faut faire une liste de classe.
+Lien : https://github.com/clemsytoff/spe-nsijbs/blob/main/biblioth%C3%A8que.py
