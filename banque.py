@@ -1,7 +1,7 @@
 # classe pour un compte banquaire - nom titulaire et solde, 3 méthodes: déposer, retirer, afficher
 
 class Compte:
-    def __init__(self,nom="djebz",solde=1000):
+    def __init__(self,nom="Clément",solde=1000):
         self.nom = nom
         self.solde = solde
         
