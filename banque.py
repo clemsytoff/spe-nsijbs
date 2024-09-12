@@ -15,9 +15,9 @@ class Compte:
             self.solde = self.solde - retrait
     
     def afficher(self):
-        if self.nom == "Elbarto":
+        if self.nom == "Elbarto" or self.nom == "bharat":
             print("Bharat tu es un clodo.") #easter egg 1
-        elif self.nom == "djebz":
+        elif self.nom == "djebz" or self.nom == "Djebril" or self.nom == "lamenace":
             print("Djebz, voler n'est pas bon.") #easter egg 2
         else:    
             print("Vous disposez de " + str(self.solde) + " € sur le compte de Mr. " + self.nom)
