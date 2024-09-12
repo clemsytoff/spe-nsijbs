@@ -16,9 +16,9 @@ class Compte:
     
     def afficher(self):
         if self.nom == "Elbarto":
-            print("Bharat tu es un clodo.")
+            print("Bharat tu es un clodo.") #easter egg 1
         elif self.nom == "djebz":
-            print("Djebz, voler n'est pas bon.")
+            print("Djebz, voler n'est pas bon.") #easter egg 2
         else:    
             print("Vous disposez de " + str(self.solde) + " € sur le compte de Mr. " + self.nom)
 
