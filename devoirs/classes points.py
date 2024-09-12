@@ -41,7 +41,7 @@ class Point:
         #resultat
         self.resultatxy = self.resulty + self.resultx + 100 #on ajoute le 0 vu qu'on bouge en 10 par 10
         self.resultatxy = pow(self.resultx, 2) + pow(self.resulty,2)
-        self.resultatracine = sqrt(self.resultatxy) + 10
+        self.resultatracine = sqrt(self.resultatxy) * 10 #fois 10 pour le déplacement, 1 = 10
 
 #on a fait Pythagore car il y a forcément un angle droit
 
