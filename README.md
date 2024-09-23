@@ -1,4 +1,4 @@
-# Sommaire des exercices :
+# Sommaire des fichiers :
 
 **09/09/2024 (jour de rentrée)** : Exercice sur les listes; créer une liste avec les nombres paires et une avec les nombres impaires via des fonctions.
 Lien : https://github.com/clemsytoff/spe-nsijbs/blob/main/listes.py
@@ -16,3 +16,5 @@ Lien : https://github.com/clemsytoff/spe-nsijbs/blob/main/biblioth%C3%A8que.py
 
 **23/09/2024** : Correction de tous les exercices sur les listes chainées.
 Lien : https://github.com/clemsytoff/spe-nsijbs/commit/30b0ac86b1910dca4d9d67ac9b89d1e24a30a759
+
+**__Bot Discord:__** https://github.com/clemsytoff/spe-nsijbs/tree/main/bot%20discord (Bot normal + correcteur de code)
