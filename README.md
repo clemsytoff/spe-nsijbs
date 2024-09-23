@@ -13,3 +13,6 @@ Lien : https://github.com/clemsytoff/spe-nsijbs/blob/main/banque.py
 
 Exercice sur les classes où il faut faire une liste de classe.
 Lien : https://github.com/clemsytoff/spe-nsijbs/blob/main/biblioth%C3%A8que.py
+
+**23/09/2024** : Correction de tous les exercices sur les listes chainées.
+Lien : https://github.com/clemsytoff/spe-nsijbs/commit/30b0ac86b1910dca4d9d67ac9b89d1e24a30a759
