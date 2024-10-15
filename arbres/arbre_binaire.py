@@ -53,6 +53,34 @@ class Arbre:
             if self.fils_droit:
                 self.fils_droit.afficher_arbre_postfixe()
             print(self.valeur)
+    
+    def maxi(self):
+        max = self.valeur
+
+        if not self.est_vide():
+            if self.fils_droit:
+                if self.valeur > max:
+                    return max
+                else:
+                    return self.fils_droit.maxi()
+        else:
+            return 0
+        
+        return max
+    
+    def mini(self):
+        min = self.valeur
+
+        if not self.est_vide():
+            if self.fils_gauche:
+                if self.valeur < min:
+                    return min
+                else:
+                    return self.fils_gauche.mini()
+        else: 
+            return 0
+
+
 
 
 #chercher si un element est present ou pas
@@ -80,6 +108,8 @@ def est_element_present(abr: Arbre, element) -> bool:
             return False
 
 
+
+
 # Test de l'arbre
 abr = Arbre()
 abr.inserer_element(5)
@@ -90,9 +120,13 @@ abr.inserer_element(4)
 abr.inserer_element(6)
 abr.inserer_element(8)
 
-abr.afficher_arbre_postfixe()
+abr.afficher_arbre_prefixe()
 
 if est_element_present(abr,-1):
     print("il existe")
 else:
     print("il n'existe pas")
+
+
+
+min(abr)
